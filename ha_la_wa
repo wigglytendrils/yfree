@@ -1,3 +1,4 @@
+//boot server
 s.boot;
 
 //timing and tuning
@@ -19,6 +20,7 @@ s.boot;
 ~masterGain = 0.2;
 
 TempoClock.default.tempo = 1;
+
 s.latency = 0.2;
 )
 
