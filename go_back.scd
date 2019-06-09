@@ -10,8 +10,8 @@ s.boot;
 //read buffers
 
 (
-~vox = Buffer.readChannel(s, ~path++"/yfree buffers stems/YFREE go back (vox).wav",0,-1,0);
-~guitar = Buffer.readChannel(s, ~path++"/yfree buffers stems/YFREE go back (guitar).wav",0,-1,0);
+~vox = Buffer.readChannel(s, ~path++"/yfree_buffers_stems/YFREE go back (vox).wav",0,-1,0);
+~guitar = Buffer.readChannel(s, ~path++"/yfree_buffers_stems/YFREE go back (guitar).wav",0,-1,0);
 )
 
 //test buffers

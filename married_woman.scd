@@ -34,59 +34,59 @@ s.stopRecording;
 //loading vocal stem buffer
 
 (
-~marriedWomanVox = Buffer.readChannel(s,~path++"yfree buffers stems/Married Woman (vox).wav",0,-1,1);
+~marriedWomanVox = Buffer.readChannel(s,~path++"yfree_buffers_stems/Married Woman (vox).wav",0,-1,1);
 )
 
 //loading drum sample dictionary buffers
 
 (
 d = Dictionary.new;
-d.add(\hatClosed ->	PathName(~path++"aksel drum samples/hatClosed/").entries.collect({
+d.add(\hatClosed ->	PathName(~path++"aksel_drum_samples/hatClosed/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\hatFoot ->	PathName(~path++"aksel drum samples/hatFoot/").entries.collect({
+d.add(\hatFoot ->	PathName(~path++"aksel_drum_samples/hatFoot/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\kickLoud ->	PathName(~path++"aksel drum samples/kickLoud/").entries.collect({
+d.add(\kickLoud ->	PathName(~path++"aksel_drum_samples/kickLoud/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\kickSoft ->	PathName(~path++"aksel drum samples/kickSoft/").entries.collect({
+d.add(\kickSoft ->	PathName(~path++"aksel_drum_samples/kickSoft/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\snareDead ->	PathName(~path++"aksel drum samples/snareDead/").entries.collect({
+d.add(\snareDead ->	PathName(~path++"aksel_drum_samples/snareDead/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\snareRing ->	PathName(~path++"aksel drum samples/snareRing/").entries.collect({
+d.add(\snareRing ->	PathName(~path++"aksel_drum_samples/snareRing/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\ride ->	PathName(~path++"aksel drum samples/ride/").entries.collect({
+d.add(\ride ->	PathName(~path++"aksel_drum_samples/ride/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\rideBell ->	PathName(~path++"aksel drum samples/rideBell/").entries.collect({
+d.add(\rideBell ->	PathName(~path++"aksel_drum_samples/rideBell/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\floorTom ->	PathName(~path++"aksel drum samples/floorTom/").entries.collect({
+d.add(\floorTom ->	PathName(~path++"aksel_drum_samples/floorTom/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
 );
-d.add(\crash ->	PathName(~path++"aksel drum samples/crash/").entries.collect({
+d.add(\crash ->	PathName(~path++"aksel_drum_samples/crash/").entries.collect({
 		arg sf;
 		Buffer.read(s, sf.fullPath);
 	});
