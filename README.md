@@ -14,7 +14,7 @@ anything could happen - words and music by dkland. bridge too far - words and mu
 
 license:
 
-    y.free an album of songs written in SuperCollider
+    yfree is an album of songs written in SuperCollider
 
     Copyright (C) 2019 The Wiggly Tendrils
 
