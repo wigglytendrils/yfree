@@ -1,5 +1,8 @@
 # yfree
 
+yfree is an album of songs that were written and produced using SuperCollider. You can listen to the songs here:
+https://thewigglytendrils.bandcamp.com/album/y-free
+
 this repository contains some large .wav files which are tracked through git large file storage. if you want to download those files (and not just the pointers) you'll need to download and install git-lfs and then git clone the repository through terminal --not the web interface.
 
 you can download git-lfs here:
